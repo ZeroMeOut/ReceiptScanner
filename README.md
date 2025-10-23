@@ -1,10 +1,10 @@
 
 # Receipt Scanner
 
-Hello, this is a receipt scanner as the name suggest. Specifically it extracts only the the bought items. The thought process is for it to first use an image recognition model to check if the input image is even a receipt in the first place, then if it is extract the bought items with a VLM. 
+Hello, this is a receipt scanner as the name suggest. Specifically it extracts only the the bought items. The thought process is for it to first use an image recognition model to check if the input image is even a receipt in the first place, then if it is extract the bought items with a ~~VLM~~ image to text model. 
 
-## Why a VLM?
-VLMs can (potentially) understand the structure of a receipt better than typical OCR methods. I also just want to understand how to train them to do that. If it doesn't work this repo would be terminated :)
+## Why a ~~VLM~~ Image to text model?
+~~VLMs~~ Image to text models can (potentially) understand the structure of a receipt better than typical OCR methods. I also just want to understand how to train them to do that. If it doesn't work this repo would be terminated :)
 
 
 
@@ -16,7 +16,7 @@ VLMs can (potentially) understand the structure of a receipt better than typical
 
 - Check the performance of the recognition model locally on my system
 
-- Then move on to train a VLM model for the extraction. I would prefer a smol vlm model for this, and an already pretrained one
+- Then move on to train a ~~VLM~~ image to text model for the extraction. ~~I would prefer a smol vlm model for this, and an already pretrained one~~
 
 - Check the performance, iterate till it's decent. I don't want to try creating the best, I must admit I don't believe I can, but I want it to be very very good
 
